@@ -1,0 +1,70 @@
+* {
+  background-color: #282c34;
+  color: #fff;
+}
+img {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgb(90, 90, 90);
+}
+.App-header {
+  background-color: #22c499;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  margin: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 8px rgb(90, 90, 90);
+  color: white;
+}
+
+input {
+  margin: 10px;
+  font-size: large;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #22c499;
+}
+.inputsFields {
+  background-color: #282c34;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgb(90, 90, 90);
+}
+.lowerFields,
+.upperFields {
+  display: flex;
+  justify-content: space-evenly;
+}
+table,
+th,
+td {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.inputsFields label {
+  margin-top: 10px;
+  display: inline-block;
+  width: 75px;
+}
+.inputsFields input {
+  width: calc(30% - 25px);
+  margin-right: 15px;
+}
+p {
+  text-align: center;
+  font-size: large;
+}
